@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#2F1D1A</color>
+    <color name="colorPrimary">#4A312A</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for app -->
+    <color name="bg_app">#FFFFFF</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="bg_rb_quiz_text">#FD8E09</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="bg_cb_quiz_text">#09a8fd</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="bg_et_quiz_text">#fd09b8</color>
+
+    <!-- Background color for the Submit Buttons -->
+    <color name="bg_submit">#8800A0</color>
+
+    <!-- Background color for the Reset Buttons -->
+    <color name="bg_reset">#88ca16</color>
+</resources>

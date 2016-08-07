@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">QuizDroid</string>
+
+    <!-- Quiz Header -->
+    <string name="header">Do you know Android ?</string>
+
+
+    <!-- Quiz Questions Text  -->
+    <string name="quiz_year">Which year android was found ?</string>
+    <string name="quiz_developer">Who developed Android ?</string>
+    <string name="quiz_preview">What\'s the latest Android preview release called ?</string>
+    <string name="quiz_written">Android is written in . . . </string>
+    <string name="quiz_kernel">Android kernel is based upon . . . </string>
+
+    <!-- Quiz Answers Text for RadioButtons -->
+    <string name="qa_rb_yr_2002">2002</string>
+    <string name="qa_rb_yr_2003">2003</string>
+    <string name="qa_rb_yr_2004">2004</string>
+    <string name="qa_rb_yr_2005">2005</string>
+    <string name="qa_rb_dv_andy">Andy Rubin</string>
+    <string name="qa_rb_dv_nick">Nick Sears</string>
+    <string name="qa_rb_dv_chris">Chris White</string>
+    <string name="qa_rb_dv_all">All of them</string>
+    <string name="qa_rb_pr_nuet">Nuetella</string>
+    <string name="qa_rb_pr_nogh">Noghl</string>
+    <string name="qa_rb_pr_noug">Nougat</string>
+    <string name="qa_rb_pr_nati">Natillas</string>
+
+    <!-- Quiz Answers Text for CheckBoxes -->
+    <string name="qa_cb_java">Java</string>
+    <string name="qa_cb_c">C</string>
+    <string name="qa_cb_chash">C#</string>
+    <string name="qa_cb_cpp">C++</string>
+
+    <!-- Quiz Button Text -->
+    <string name="btn_subm">Submit</string>
+    <string name="btn_rese">Reset</string>
+
+</resources>
+

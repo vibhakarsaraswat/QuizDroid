@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizdroid.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activityLilo"
+        android:background="@color/bg_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/QuizHeaderStyle"
+            android:text="@string/header" />
+
+        <TextView
+            style="@style/rbTextQuizStyle"
+            android:text="@string/quiz_year" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_yr_2002"
+                android:id="@+id/radioButton1" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_yr_2003"
+                android:id="@+id/radioButton2" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_yr_2004"
+                android:id="@+id/radioButton3" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_yr_2005"
+                android:id="@+id/radioButton4" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/rbTextQuizStyle"
+            android:text="@string/quiz_developer" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupDeveloper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_dv_andy"
+                android:id="@+id/radioButton5"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_dv_nick"
+                android:id="@+id/radioButton6" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_dv_chris"
+                android:id="@+id/radioButton7" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_dv_all"
+                android:id="@+id/radioButton8"
+                android:checked="false" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/rbTextQuizStyle"
+            android:text="@string/quiz_preview" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupRelease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_pr_nuet"
+                android:id="@+id/radioButton9" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_pr_nogh"
+                android:id="@+id/radioButton10" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_pr_noug"
+                android:id="@+id/radioButton11"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="@string/qa_rb_pr_nati"
+                android:id="@+id/radioButton12" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/cbTextQuizStyle"
+            android:text="@string/quiz_written" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:text="@string/qa_cb_java"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:text="@string/qa_cb_c"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:text="@string/qa_cb_chash"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:text="@string/qa_cb_cpp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/etTextQuizStyle"
+            android:text="@string/quiz_kernel" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/sbm_button"
+            android:text="@string/btn_subm"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/rst_button"
+            android:text="@string/btn_rese"
+            android:textStyle="bold"
+            android:background="@color/bg_reset"
+            android:layout_gravity="bottom|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>
